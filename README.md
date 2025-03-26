@@ -1,6 +1,6 @@
 # ChatGPT Reviews Analysis with Python
 
-This project performs sentiment analysis on user reviews of ChatGPT using Python. It explores textual data to extract meaningful insights about user satisfaction, commonly used words, and overall sentiment polarity.
+This project performs sentiment analysis on user reviews of ChatGPT. It explores textual data to extract meaningful insights about user satisfaction, commonly used words, and overall sentiment polarity.
 
 ---
 
@@ -26,6 +26,11 @@ This Python project analyzes a dataset containing real user reviews of ChatGPT. 
 
 ---
 
+## Dataset
+The dataset used contains ChatGPT user reviews, and is available within the notebook or can be downloaded from `data/chatgpt_reviews.csv` for analysis.
+
+---
+
 
 ## Features
 
@@ -37,7 +42,7 @@ This Python project analyzes a dataset containing real user reviews of ChatGPT. 
 
 ---
 
-## 🛠Technologies Used
+## Technologies Used
 
 - Python 
 - Pandas 
@@ -55,4 +60,24 @@ This Python project analyzes a dataset containing real user reviews of ChatGPT. 
    git clone https://github.com/veydantkatyal/chatgpt-reviews-analysis.git
    cd chatgpt-reviews-analysis
    ```
-2. 
+2. **Install required libraries**
+    ```bash
+   pip install pandas matplotlib wordcloud textblob
+   python -m textblob.download_corpora
+   ```
+---
+
+## Usage
+1. **Run the jupyter notebook.**
+2. Open the `ChatGPT_Reviews_Analysis.ipynb` notebook.
+3. Follow the steps in the notebook to understand analysis and run the desired results
+
+---
+
+## Results
+![](./graphs/sentiment-trends.png)
+
+---
+
+## License
+The project is licensed under [MIT Licenses](https://github.com/veydantkatyal/gpt-review-analysis/blob/main/LICENSE)
